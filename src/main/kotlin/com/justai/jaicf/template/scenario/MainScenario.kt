@@ -12,6 +12,8 @@ val mainScenario = Scenario {
         action {
             reactions.run {
                 image("https://media.giphy.com/media/ICOgUNjpvO0PC/source.gif")
+                say("Hey Hey!")
+
                 sayRandom(
                     "Hello! How can I help?",
                     "Hi there! How can I help you?"
